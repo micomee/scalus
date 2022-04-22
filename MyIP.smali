@@ -561,7 +561,7 @@
     .line 43
     move-object v7, v0
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getPrevIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getPrevIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -582,7 +582,7 @@
     .line 46
     move-object v7, v0
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -601,7 +601,7 @@
     .line 49
     move-object v7, v0
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -610,7 +610,7 @@
     .line 50
     move-object v7, v4
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -622,7 +622,7 @@
     :cond_39
     move-object v7, v0
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -631,7 +631,7 @@
     .line 54
     move-object v7, v4
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -640,7 +640,7 @@
     .line 55
     move-object v7, v5
 
-    invoke-static {v7}, Lcom/mycompany/myapp/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v7}, Lcom/myfile/MyIP;->getNextIPV4Address(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
